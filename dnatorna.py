@@ -1,9 +1,9 @@
 """
-Convert DNA to RNA
+Convert DNA to RNA with the same capitalization as the input seq
 """
 
 def rna(seq):
-    """Convert DNA into RNA"""
+    """Convert DNA into RNA """
 
     #Determine if seq is uppercase
     seq_upper=seq.isupper()
